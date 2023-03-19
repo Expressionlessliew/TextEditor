@@ -8,7 +8,10 @@ let Wordnew;
 const ChangeWordInput = document.getElementById("changeWord");
 const newWordInput = document.getElementById("Wordnew");
 const editbtn = document.getElementById("edit");
+const clearbtn = document.getElementById("clear");
 
+
+clearbtn.addEventListener("click",clearAll);
 Savebtn.addEventListener("click", saveData);
 editbtn.addEventListener("click", editData);
 
@@ -40,4 +43,8 @@ function editData(){
     
     textContainer.innerHTML = newText;
     console.log(currentData)
+}
+
+function clearAll(){
+  textContainer.innerHTML = ''
 }

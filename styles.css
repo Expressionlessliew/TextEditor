@@ -2,6 +2,7 @@ body {
   background-color: #1d2326;
   color: #bfa38a;
   font-family: monospace;
+  color: aliceblue;
 }
 
 main {
@@ -21,7 +22,7 @@ p {
 }
 
 #text {
-    font-size: large;
+  font-size: large;
 }
 
 .attribution {
@@ -62,6 +63,8 @@ a:hover {
   padding-right: 30px;
   border-left: 1px dotted #bfa38a;
   height: 85vh;
+  background-color: #1d2326;
+  border-color: thistle;
 }
 
 button {
@@ -98,13 +101,39 @@ button:hover {
   border-radius: 5px;
 }
 
-#replace{
+#replace {
   margin-top: 20px;
   font-family: monospace;
   border-radius: 5px;
+  background-color: #1d2326;
+  border-color: thistle;
 }
 
-#textInput{
+#textInput {
+  color: white;
   border-radius: 5px;
+  background-color: #1d2326;
+  border-color: thistle;
   height: 100px;
+}
+
+#changeWord{
+  color: white;
+  border-radius: 5px;
+  background-color: #1d2326;
+  border-color: thistle;
+  height: 30px;
+}
+
+#Wordnew{
+  color: white;
+  border-radius: 5px;
+  background-color: #1d2326;
+  border-color: thistle;
+  height: 30px;
+}
+
+#clear{
+  color: white;
+  background-color: red;
 }
